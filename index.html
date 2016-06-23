@@ -6,44 +6,79 @@
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-        <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <link href="css/styles.css" type="text/css" rel="stylesheet">
 
         <title>Home :: Bootsass</title>
     </head>
     <body>
         <!-- Header -->
-        <header>
-            <h1>Bootsass.uk</h1>
-            <p>The central resource for everything Bootsass</p>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="index.html">Resources</a></li>
-                    <li><a href="index.html">Works</a></li>
-                    <li><a href="index.html">Contact</a></li>
+        <header class="container">
+            <div class="banner row">
+                <h1>Bootsass.uk</h1>
+                <p>The central resource for everything Bootsass</p>                
+            </div>
+
+            <nav class="row">
+                <ul class="nav">
+                    <li class="dropdown">
+                        <button class="btn btn-nav dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown-menu-home" aria-haspopup="true" aria-expanded="true">Home <span class="caret"></span></button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-menu-home">
+                            <li><a href="#">Home</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <button class="btn btn-nav dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown-menu-about" aria-haspopup="true" aria-expanded="true">About <span class="caret"></span></button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-menu-about">
+                            <li><a href="#">About Home</a></li>
+                            <li><a href="#">The Website</a></li>
+                            <li><a href="#">Jane Austen</a></li>
+                            <li><a href="#">The Author</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <button class="btn btn-nav dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown-menu-resources" aria-haspopup="true" aria-expanded="true">Resources <span class="caret"></span></button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-menu-resources">
+                            <li><a href="#">Resources Home</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <button class="btn btn-nav dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown-menu-works" aria-haspopup="true" aria-expanded="true">Works <span class="caret"></span></button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-menu-works">
+                            <li><a href="#">Works Home</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <button class="btn btn-nav dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown-menu-contact" aria-haspopup="true" aria-expanded="true">Resources <span class="caret"></span></button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-menu-contact">
+                            <li><a href="#">Contact Home</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </header>
 
         <!-- Jumbotron -->
-        <section>
+        <section class="container jumbotron">
             <article>
-                <h1></h1>
-                <p></p>
+                <h1>Welcome</h1>
+                <p>Bootsass.uk is a centralised location for various Jane Austen. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit sem in urna tincidunt feugiat. Aliquam bibendum mauris interdum velit euismod, porta facilisis urna pretium. Nunc consectetur, justo sit amet varius aliquet, mauris metus convallis nisi, quis fermentum arcu sem vitae diam.</p>
             </article>
         </section>
 
         <!-- Main content -->
-        <section>
+        <section class="container">
+            <h1>News</h1>
             <article>
-                <h1></h1>
-                <p></p>
+                <h2>Oranges Are Actually Bananas</h2>
+                <p>Quisque at purus commodo, consequat urna eget, condimentum dolor. Proin sit amet tortor vel risus laoreet commodo id at ligula. In ornare congue aliquet. Cras convallis ornare nulla non faucibus. Pellentesque dictum libero eu turpis volutpat volutpat. Duis euismod justo et tellus pulvinar, interdum venenatis mauris viverra. Suspendisse volutpat, urna non condimentum lacinia, metus felis ultrices erat, quis molestie elit turpis et nulla. Cras nec auctor nulla. Suspendisse potenti. Vestibulum nec quam eu ipsum ullamcorper suscipit in nec neque. Proin bibendum suscipit odio at pellentesque. Aliquam eu mauris ac neque blandit venenatis non ac mauris. Phasellus egestas cursus nibh, id sodales ante luctus et.</p>
+                <p>Quisque tempor magna dui, in pellentesque nunc mattis at. Donec ac orci eu leo venenatis varius eu viverra massa. Aliquam convallis tellus nec metus eleifend, a finibus dui viverra. Suspendisse rhoncus magna nisl, feugiat tincidunt lorem elementum sed. Donec facilisis urna eu est viverra viverra. Integer lacus nibh, laoreet sagittis porta pharetra, aliquam quis est. Quisque tristique, ipsum sit amet commodo tincidunt, nulla sem ornare ante, maximus auctor tortor justo ac nisl. Quisque vitae pellentesque erat. Sed elementum porttitor laoreet. Phasellus nec maximus velit. Duis tincidunt nunc magna. Morbi nec diam non lacus suscipit malesuada sit amet sed ante. Sed sed scelerisque lorem. Integer congue dolor et lobortis mattis.</p>
             </article>
             <article>
-                <h1></h1>
-                <p></p>
+                <h2>Haggis McScotsman Named Scotland's True Scotsman</h2>
+                <p>Integer non felis mollis elit volutpat rhoncus. Aliquam sed suscipit velit. Cras lacinia urna in arcu efficitur hendrerit. Vestibulum ultricies tincidunt sem non venenatis. Nam lectus magna, ultrices et magna pellentesque, molestie pulvinar sem. Maecenas accumsan dignissim sem vitae rhoncus. Vestibulum sed semper orci. Vestibulum facilisis ac urna ac tincidunt. Curabitur ligula ante, luctus eget bibendum et, finibus ac lorem. Vivamus accumsan velit quis augue eleifend, ultrices facilisis nulla hendrerit. Integer eget odio et augue viverra condimentum. Pellentesque faucibus auctor elit nec varius. Donec sit amet turpis vitae ex porta fringilla eu et dolor. Nulla non dui lectus.</p>
+                <p>Nulla placerat consectetur molestie. Mauris cursus egestas suscipit. Donec posuere leo leo, in bibendum enim pharetra in. Etiam ac pellentesque sem. Sed ut sem mattis, tincidunt lorem nec, ullamcorper nunc. Maecenas quis nisl vel metus pulvinar vehicula. Nam congue consequat metus et consequat. Sed volutpat, quam a mattis suscipit, ligula metus consectetur justo, vestibulum porttitor nunc massa ut sapien. Ut eu mollis orci. Nunc suscipit, neque non accumsan lacinia, tellus augue consectetur nulla, convallis rhoncus risus augue convallis tortor. Vivamus facilisis justo ut massa ultrices, ut volutpat libero eleifend.</p>
             </article>
         </section>
 
@@ -60,8 +95,8 @@
         </aside>
 
         <!-- Footer -->
-        <footer>
-            
+        <footer class="container">
+            <p>&copy; 2016 Bootsass.uk</p>
         </footer>
     </body>
 </html>

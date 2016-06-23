@@ -8791,3 +8791,7 @@ button.close {
     display: none !important;
   }
 }
+/* line 10, ../sass/styles.scss */
+.test {
+  width: 100%;
+}
